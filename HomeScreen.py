@@ -49,6 +49,9 @@ class HomeScreen:
         self.top.bind('<Escape>', self.close_window)
         self.top.focus_force()
 
+    def Run(self):
+        self.top.mainloop()
+        
     def close_window(self, event):
         sys.exit()
 
