@@ -17,10 +17,10 @@ buttons = []
 
 buttons.append(Button(top, image=tiles["Folder"]["Light"]))
 buttons.append(Button(top, image=tiles["Start"]["Light"]))
-buttons.append(Button(top, image=tiles["CFile"]["Light"]))
+buttons.append(Button(top, image=tiles["CFile"]))
 buttons.append(Button(top, image=tiles["Cancel"]["Light"]))
 buttons.append(Button(top, image=tiles["Pause"]["Light"]))
-buttons.append(Button(top, image=tiles["CJob"]["Light"]))
+buttons.append(Button(top, image=tiles["CJob"]))
 
 def close_window(event):
     sys.exit()
